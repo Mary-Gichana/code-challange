@@ -5,21 +5,17 @@ This repository contains two coding challenges. The first challenge calculates a
 ### Description
 The program prompts the user to input student marks between 0 and 100. Based on the marks, it determines the student's grade using the following conditions:
 
-**grade A**: Marks > 79
-
-**grade B**: 60 ≤ Marks ≤ 79
-
-**grade C**: 49 ≤ Marks ≤ 59
-
-**grade D**: 40 ≤ Marks ≤ 49
-
-**grade E**: Marks < 40
+- **grade A**: marks > 79
+- **grade B**: marks >= 60 && marks <= 79
+- **grade C**: marks >= 49 && marks <= 59
+- **grade D**: marks >= 40 && marks <49
+- **grade E**: marks < 40
 
 ## 2 Challange: Calculates demerit points based on the speed of a car
 ### Description
  The program calculates demerit points based on the speed of a car. If the speed is less than 70, it prints "Ok". For every 5 km/s above 70, it assigns 1 demerit point. If the demerit points exceed 12, it prints "License suspended".
 
-# Tools used
+# Technologies used
 - Node.js.
 
 # Installation
@@ -37,8 +33,19 @@ The program prompts the user to input student marks between 0 and 100. Based on 
    node marks.js or  node speed.js
    ```
 4. Input the student's mark (a number between 0 and 100) when prompted for marks.js file
-   
+
    Input the car's speed (a number) when prompted for speed.js file.
+
+# Contributing
+If you have any suggestions or find issues, feel free to submit a pull request. All contributions are welcome!.
+1. Fork the project
+2. Create a branch 
+3. Commit your changes
+4. Push to the branch
+5. Open a pull request
+
+## contact
+[Mary Gichana](marygichana95@gmail.com)
 
 # License
 This project is under the MIT License.
