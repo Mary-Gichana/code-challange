@@ -36,7 +36,9 @@ The program prompts the user to input student marks between 0 and 100. Based on 
    ```bash
    node marks.js or  node speed.js
    ```
-4. Input the student's mark (a number between 0 and 100) when prompted.
+4. Input the student's mark (a number between 0 and 100) when prompted for marks.js file
+   
+   Input the car's speed (a number) when prompted for speed.js file.
 
 # License
 This project is under the MIT License.
