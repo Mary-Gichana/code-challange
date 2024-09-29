@@ -1,42 +1,24 @@
-const readline = require('readline');
-
-// Function to determine the grade based on the mark
 function getGrade(marks) {
   if (marks > 79) {
     return "A";
   } else if (marks >= 60 && marks <= 79) {
     return "B";
-  } else if (marks >= 49 && marks <= 59) {
+  } else if (marks > 49 && marks < 60) {
     return "C";
-  } else if (marks >= 40 && marks <49) {
+  } else if (marks >= 40 && marks <= 49) {
     return "D";
   } else {
     return "E";
   }
 }
 
-// Get the student's mark from the user
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
-});
+const marks = 60;
+getGrade(marks);
 
-rl.question('Enter the student\'s mark (between 0 and 100): ', (answer) => {
-  let marks = parseFloat(answer);
+// Convert the input to a number and check if it's valid
 
-  // Validate the input
-  while (marks < 0 || marks > 100) {
-    console.log("Invalid input. Please enter a mark between 0 and 100.");
-    rl.question('Enter the student\'s mark (between 0 and 100): ', (answer) => {
-      marks = parseFloat(answer);
-    });
-  }
-
-  // Determine the grade using the function
-  let grade = getGrade(marks);
-
-  // Output the grade
-  console.log(`The student's grade is ${grade}.`);
-
-  rl.close();
-});
+if (marks >= 0 && marks <= 100) {
+  console.log(`The grade is: ${getGrade(marks)}`);
+} else {
+  console.log("Invalid input. Please enter marks between 0 and 100.");
+}
