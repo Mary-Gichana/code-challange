@@ -19,11 +19,11 @@ grade E: Marks < 40
 
 # Installation
 1. Clone the repository
-   git clone https://github.com/Mary-Gichana/code-challange
+   ** git clone git@github.com:Mary-Gichana/code-challange.git **
 2. Navigate to the project folder
-   cd core-challange
+   ** cd core-challange **
 3. Run either marks.js or speed.js file 
-   node marks.js  or node speed.js
+   ** node marks.js  or node speed.js **
 
 # License
 This project is under the MIT License.
