@@ -24,8 +24,9 @@ The program prompts the user to input student marks between 0 and 100. Based on 
 
 # Installation
 1. Clone the repository
-
+    ```bash
    git clone git@github.com:Mary-Gichana/code-challange.git
+   ```
 
 2. Navigate to the project folder
 
