@@ -29,12 +29,12 @@ The program prompts the user to input student marks between 0 and 100. Based on 
    ```
 
 2. Navigate to the project folder
-
-   cd core-challange 
-
-3. Run the program using the following command:
    ```bash
-   node marks.js, node speed.js
+   cd core-challange 
+   ```
+3. Run either program using the following command:
+   ```bash
+   node marks.js or  node speed.js
    ```
 4. Input the student's mark (a number between 0 and 100) when prompted.
 
