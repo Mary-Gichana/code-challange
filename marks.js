@@ -1,3 +1,4 @@
+// Function to determine the grade based on the marks
 function getGrade(marks) {
   if (marks > 79) {
     return "A";
@@ -11,11 +12,13 @@ function getGrade(marks) {
     return "E";
   }
 }
+// Assign a  value to the marks
 
-const marks = 60;
+const marks = 49;
 getGrade(marks);
+// Call the getGrade function with the given marks and output the result
 
-// Convert the input to a number and check if it's valid
+// Before that, check if the input marks are valid (between 0 and 100)
 
 if (marks >= 0 && marks <= 100) {
   console.log(`The grade is: ${getGrade(marks)}`);
